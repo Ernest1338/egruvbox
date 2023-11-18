@@ -1,9 +1,9 @@
-*gruvbox8.txt*	For Neovim 	Last change: 2023 Aug 04
+*gruvbox8.txt*	For Vim version 9	Last change: 2023 Aug 04
 
 
-		Gruvbox 8 for Neovim color scheme
+		Gruvbox 8 color scheme
 
-Gruvbox 8 for Neovim is a popular colorscheme originally designed by morhetz. The Neovim
+Gruvbox 8 is a popular colorscheme originally designed by morhetz. The Vim
 version comes in three variants:
 
 - gruvbox8: "medium" contrast;
@@ -16,18 +16,18 @@ before loading the colorscheme. For example:
 	set background=dark
 	colorscheme gruvbox8
 <
-Gruvbox 8 for Neovim works out of the box anywhere, from black&white terminals to
-true-color terminals and GUI versions of Neovim.
+Gruvbox 8 works out of the box anywhere, from black&white terminals to
+true-color terminals and GUI versions of Vim.
 
 ==============================================================================
 Colorscheme options				*gruvbox-options*
 
 						*g:gruvbox_bold*
-Set to 0 to suppress boldface.
+Set to 0 to suppress boldface in gVim.
 >
 	let g:gruvbox_bold = 1
 <
-NOTE: to disable boldface in the terminal, use your terminal's preferences, or
+NOTE: to disable boldface in terminal Vim, use your terminal's preferences, or
 try putting the following line in your |vimrc|:
 >
 	set t_md=
@@ -37,12 +37,16 @@ Set to 1 to include syntax highlighting definitions for several filetypes.
 >
 	let g:gruvbox_filetype_hi_groups = 0
 <
-Note: setting this to 1 may leave "a wake of destruction when switching away"
-(Tim Pope), that is, when you switch to a different colorscheme the
-highlighting may look wrong or disabled.
+Note: in older versions of Vim, setting this to 1 may leave "a wake of
+destruction when switching away" (Tim Pope), that is, when you switch to
+a different colorscheme the highlighting may look wrong or disabled.
 
 						*g:gruvbox_italics*
-Set to 0 if you do not want to enable italics.
+Set to 0 if you do not want to enable italics. Note that the color scheme in
+normal circumstances automatically detects whether italics is available. You
+should never need to set this option explicitly. You may want to unset it if
+you do not want Vim to display italics even when the feature is available
+(e.g., in GUI versions of Vim).
 >
 	let g:gruvbox_italics = 1
 <
@@ -57,12 +61,9 @@ plugins:
 >
 	let g:gruvbox_plugin_hi_groups = 0
 <
-Note: setting this to 1 may leave "a wake of destruction when switching away"
-(Tim Pope), that is, when you switch to a different colorscheme the
-highlighting may look wrong or disabled.
-
-						*g:gruvbox_t_Co*
-Set to the number of colors supported by your terminal.
+Note: in older versions of Vim, setting this to 1 may leave "a wake of
+destruction when switching away" (Tim Pope), that is, when you switch to
+a different colorscheme the highlighting may look wrong or disabled.
 
 						*g:gruvbox_transp_bg*
 Set to 1 if you want a transparent background. Takes effect only in the
