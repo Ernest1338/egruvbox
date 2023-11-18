@@ -104,6 +104,9 @@ if &background == 'dark'
   hi! link lCursor Cursor
   hi! link vCursor Cursor
 
+  " custom highlights
+  hi NormalFloat guifg=#ebdbb2 guibg=#282828 guisp=NONE gui=NONE
+
   hi Normal guifg=#ebdbb2 guibg=#282828 guisp=NONE gui=NONE
   hi Boolean guifg=#d3869b guibg=NONE guisp=NONE gui=NONE
   hi Character guifg=#d3869b guibg=NONE guisp=NONE gui=NONE
