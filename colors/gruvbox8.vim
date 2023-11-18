@@ -120,9 +120,9 @@ if &background == 'dark'
   hi Debug guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE
   hi Define guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE
   hi Delimiter guifg=#fe8019 guibg=NONE guisp=NONE gui=NONE
-  hi DiffAdd guifg=#b8bb26 guibg=#282828 guisp=NONE gui=reverse
-  hi DiffChange guifg=#8ec07c guibg=#282828 guisp=NONE gui=reverse
-  hi DiffDelete guifg=#fb4934 guibg=#282828 guisp=NONE gui=reverse
+  hi DiffAdd guifg=#3c3836 guibg=#b8bb26 guisp=NONE gui=reverse
+  hi DiffChange guifg=#3c3836 guibg=#8ec07c guisp=NONE gui=reverse
+  hi DiffDelete guifg=#3c3836 guibg=#fb4934 guisp=NONE gui=reverse
   hi DiffText guifg=#fabd2f guibg=#282828 guisp=NONE gui=reverse
   hi Directory guifg=#b8bb26 guibg=NONE guisp=NONE gui=bold
   hi EndOfBuffer guifg=#282828 guibg=NONE guisp=NONE gui=NONE
