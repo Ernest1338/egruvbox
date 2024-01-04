@@ -104,16 +104,11 @@ if &background == 'dark'
   hi! link lCursor Cursor
   hi! link vCursor Cursor
 
-  " custom highlights
+  " Custom highlights
   hi NormalFloat guifg=#ebdbb2 guibg=#282828 guisp=NONE gui=NONE
   hi MiniTablineModifiedHidden cterm=reverse ctermfg=237 ctermbg=137 gui=reverse guifg=#3c3836 guibg=#e2ab40
   hi MiniPickMatchRanges guifg=#51a0cf
   " hi MiniCursorword guifg=NONE guibg=#2e323c gui=NONE cterm=NONE " Current word highlight change (for mini.cursorword)
-  hi DiagnosticError ctermfg=1 guifg=Red guibg=#3c3836
-  hi DiagnosticWarn ctermfg=3 guifg=Orange guibg=#3c3836
-  hi DiagnosticInfo ctermfg=4 guifg=LightBlue guibg=#3c3836
-  hi DiagnosticHint ctermfg=7 guifg=LightGray guibg=#3c3836
-  hi DiagnosticOk ctermfg=10 guifg=LightGreen guibg=#3c3836
 
   hi Normal guifg=#ebdbb2 guibg=#282828 guisp=NONE gui=NONE
   hi Boolean guifg=#d3869b guibg=NONE guisp=NONE gui=NONE
@@ -131,9 +126,12 @@ if &background == 'dark'
   hi Debug guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE
   hi Define guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE
   hi Delimiter guifg=#fe8019 guibg=NONE guisp=NONE gui=NONE
-  hi DiffAdd guifg=#3c3836 guibg=#b8bb26 guisp=NONE gui=reverse
-  hi DiffChange guifg=#3c3836 guibg=#8ec07c guisp=NONE gui=reverse
-  hi DiffDelete guifg=#3c3836 guibg=#fb4934 guisp=NONE gui=reverse
+
+  " Changed #3c3836 -> #282828
+  hi DiffAdd guifg=#282828 guibg=#b8bb26 guisp=NONE gui=reverse
+  hi DiffChange guifg=#282828 guibg=#8ec07c guisp=NONE gui=reverse
+  hi DiffDelete guifg=#282828 guibg=#fb4934 guisp=NONE gui=reverse
+
   hi DiffText guifg=#fabd2f guibg=#282828 guisp=NONE gui=reverse
   hi Directory guifg=#b8bb26 guibg=NONE guisp=NONE gui=bold
   hi EndOfBuffer guifg=#282828 guibg=NONE guisp=NONE gui=NONE
@@ -170,7 +168,10 @@ if &background == 'dark'
   hi Repeat guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE
   hi ReplaceMode guifg=#8ec07c guibg=#282828 guisp=NONE gui=reverse
   hi Search guifg=#fabd2f guibg=#282828 guisp=NONE gui=reverse
-  hi SignColumn guifg=#ebdbb2 guibg=#3c3836 guisp=NONE gui=NONE
+
+  " Changed #3c3836 -> #282828
+  hi SignColumn guifg=#ebdbb2 guibg=#282828 guisp=NONE gui=NONE
+
   hi Special guifg=#fe8019 guibg=NONE guisp=NONE gui=italic
   hi SpecialChar guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE
   hi SpecialComment guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE
