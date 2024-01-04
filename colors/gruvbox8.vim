@@ -109,6 +109,11 @@ if &background == 'dark'
   hi MiniTablineModifiedHidden cterm=reverse ctermfg=237 ctermbg=137 gui=reverse guifg=#3c3836 guibg=#e2ab40
   hi MiniPickMatchRanges guifg=#51a0cf
   " hi MiniCursorword guifg=NONE guibg=#2e323c gui=NONE cterm=NONE " Current word highlight change (for mini.cursorword)
+  hi DiagnosticError ctermfg=1 guifg=Red guibg=#3c3836
+  hi DiagnosticWarn ctermfg=3 guifg=Orange guibg=#3c3836
+  hi DiagnosticInfo ctermfg=4 guifg=LightBlue guibg=#3c3836
+  hi DiagnosticHint ctermfg=7 guifg=LightGray guibg=#3c3836
+  hi DiagnosticOk ctermfg=10 guifg=LightGreen guibg=#3c3836
 
   hi Normal guifg=#ebdbb2 guibg=#282828 guisp=NONE gui=NONE
   hi Boolean guifg=#d3869b guibg=NONE guisp=NONE gui=NONE
