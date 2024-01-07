@@ -122,7 +122,10 @@ if &background == 'dark'
   hi Cursor guifg=NONE guibg=NONE guisp=NONE gui=reverse
   hi CursorIM guifg=NONE guibg=NONE guisp=NONE gui=reverse
   hi CursorLine guifg=NONE guibg=#3c3836 guisp=NONE gui=NONE
-  hi CursorLineNr guifg=#fabd2f guibg=#3c3836 guisp=NONE gui=NONE
+
+  " Changed #3c3836 -> #282828
+  hi CursorLineNr guifg=#fabd2f guibg=#282828 guisp=NONE gui=NONE
+
   hi Debug guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE
   hi Define guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE
   hi Delimiter guifg=#fe8019 guibg=NONE guisp=NONE gui=NONE
