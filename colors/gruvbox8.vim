@@ -108,7 +108,8 @@ if &background == 'dark'
   hi NormalFloat guifg=#ebdbb2 guibg=#282828 guisp=NONE gui=NONE
   hi MiniTablineModifiedHidden cterm=reverse ctermfg=237 ctermbg=137 gui=reverse guifg=#3c3836 guibg=#e2ab40
   hi MiniPickMatchRanges guifg=#51a0cf
-  " hi MiniCursorword guifg=NONE guibg=#2e323c gui=NONE cterm=NONE " Current word highlight change (for mini.cursorword)
+  " Current word highlight change (for mini.cursorword)
+  " hi MiniCursorword guifg=NONE guibg=#3c3836 gui=NONE cterm=NONE
 
   hi Normal guifg=#ebdbb2 guibg=#282828 guisp=NONE gui=NONE
   hi Boolean guifg=#d3869b guibg=NONE guisp=NONE gui=NONE
